@@ -17,15 +17,15 @@ import pandas as pd
 
 # st.scatter_chart(df, x="Viscosity", y="Velocity")
 
-#데이터 프레임 가져오기​
+# #데이터 프레임 가져오기​
 
-import pandas as pd
+# import pandas as pd
 
-# Read the dataset
-df = pd.read_csv("InkjetDB_preprocessing.csv")
+# # Read the dataset
+# df = pd.read_csv("InkjetDB_preprocessing.csv")
 
-# Display the dataframe
-st.write(df)
+# # Display the dataframe
+# st.write(df)
 ##################################################################################################################
 # 챗봇 가져오기
 from openai import OpenAI
